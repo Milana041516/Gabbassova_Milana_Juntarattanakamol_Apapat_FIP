@@ -1,0 +1,28 @@
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39.731" height="37.979" viewBox="0 0 39.731 37.979">
+<style>
+
+	.red_one {
+		transform: scale(0);
+	}
+
+	#Layer_1:hover .red_one {
+		transform: scale(1)
+	}
+</style>
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_214" data-name="Rectangle 214" width="37.608" height="37.979" fill="#4673ad"/>
+    </clipPath>
+  </defs>
+  <g id="Group_520" data-name="Group 520" transform="translate(-699 -26.01)">
+    <g id="bag" transform="translate(699 26.01)">
+      <g id="Group_222" data-name="Group 222" clip-path="url(#clip-path)">
+        <path id="Path_856" data-name="Path 856" d="M37.588,36.134,32.8,12.4a1.521,1.521,0,0,0-1.468-1.445H26.18V8.549C26.18,3.883,22.7.028,18.369,0c-4.353-.027-7.9,3.776-7.9,8.455v2.5H5.31A1.521,1.521,0,0,0,3.841,12.4L.005,36.252a1.592,1.592,0,0,0,1.234,1.72.417.417,0,0,0,.087.009H36.133a1.533,1.533,0,0,0,1.474-1.586,1.736,1.736,0,0,0-.02-.26M29.258,20.892v-.076c0,.025,0,.05,0,.076M7.69,20.283l-.139.609a1.392,1.392,0,0,1,.139-.609M13.416,8.456a5.111,5.111,0,0,1,4.908-5.282,5.111,5.111,0,0,1,4.908,5.282v2.5H13.416Z" transform="translate(0 -0.001)" fill="#4673ad"/>
+      </g>
+    </g>
+    <g class="red_one">
+    <circle id="Ellipse_18" data-name="Ellipse 18" cx="7.804" cy="7.804" r="7.804" transform="translate(723.122 29.935)" fill="#fff"/>
+    <text id="_1" data-name="1" transform="translate(726.67 28.516)" fill="#223c80" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="0" y="16">1</tspan></text>
+    </g>
+  </g>
+</svg>
