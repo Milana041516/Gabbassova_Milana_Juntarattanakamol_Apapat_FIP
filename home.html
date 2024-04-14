@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/nup6hpu.css">
+    <script src="js/script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
+
+    <title>Zima Website</title>
+</head>
+    <body>
+        <div id="sticky-nav-con">
+        <header class="grid-con">
+            <h1 class="hidden">Header</h1>
+            <div id="logo" class="col-start-1 col-end-2 m-col-start-1 col-end-3"><object data="images/logo.svg" type="image/svg+xml"></object></div>
+            <div id="menu" class="col-start-3 col-end-4 m-col-start-9 m-col-end-11"><img class="menu-icon" src="images/menu_icon.svg" alt="menu"></div>
+            <div id="cart" class="col-start-4 col-end-5 m-col-start-12 m-col-end-13 l-col-start-12 l-col-end-13"><object class="cart-icon" data="images/bag-icon.svg" type="image/svg+xml"></object></div>
+            <nav id="main-nav">
+                <div class="nav-menu col-span-full l-col-start-4 l-col-end-12" id="nav-menu-id">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="buy-now.html" class="nav-link">Buy Now</a></li>
+                    <li class="nav-item"><a href="our-story.html"  class="nav-link">Our Story</a></li>
+                    <li class="nav-item"><a href="merch.html" class="nav-link">Merch</a></li>
+                    <li class="nav-item"><a href="contact-us.html" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item"><a href="quiz.html" class="nav-link">Quiz</a></li>
+                </ul>
+
+                <div class="nav-close" id="nav-close-id">
+                    <i class="fas fa-times"></i>
+                </div>
+                </div>
+            </nav>
+
+            <div class="z-50">
+                <button class="chatbot-toggler">
+                    <span class="material-symbols-outlined">comment</span>
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+                <div class="chatbot">
+                    <div class="chatbot-zima">
+                        <h2>Chatbot</h2>
+                        <span class="close-btn material-symbols-outlined">close</span>
+                    </div>
+                    <ul class="chatbox">
+                        <li class="chat incoming">
+                            <span class="material-symbols-outlined">smart_toy</span>
+                            <p>Hi there! <br> How can I help you today?</p>
+                        </li>
+                    </ul>
+            
+                    <div class="chat-input">
+                        <textarea placeholder="Enter a message.." required></textarea>
+                        <span id="send-btn" class="material-symbols-outlined">send</span>
+                    </div>
+                </div>
+                </div>
+        </header>
+    </div>
+
+    
+        <main>
+            <section class="grid-con banner">
+                <h2 class="hidden">Banner</h2>
+                <div class="liquid col-span-full m-col-start-7 m-col-end-13 l-col-start-7 l-col-end-12"><img src="images/liquid.png" alt="liquid"></div>
+                <div class="bottle col-span-full m-col-start-7 m-col-end-13 l-col-start-7 l-col-end-12"><img src="images/zimaOriginal.png" alt="bottle"></div>
+                <div class="banner-text col-start-2 col-end-5 m-col-start-1 m-col-end-6 l-col-start-2 l-col-end-7">
+                <div class="text">
+                    <span class="font1">Z</span>omething
+                </div>
+                <div  class="text">
+                    Diffe<span class="font2">r</span>ent
+                </div>
+                <div class="buy-now-button">
+                    <button class="buy-now-btn">Buy Now!</button>
+                </div>
+                </div>
+            </section>
+
+            <section class="grid-con slider-shop swiper">
+                <h2 class="hidden">Slider Shop</h2>
+                <div class="col-span-full m-col-span-full l-col-span-full swiper-wrapper">
+                    <article class="slider-article swiper-slide">
+                        <img src="images/zimaOriginal.png" alt="image" class="slider-img">
+                        <h2 class="slider-product">Zima Original</h2>
+                    </article>
+            
+                    <article class="slider-article swiper-slide">
+                        <img src="images/zimaStrawberry.png" alt="image" class="slider-img">
+                        <h2 class="slider-product">Zima Strawberry</h2>
+                    </article>
+            
+                    <article class="slider-article swiper-slide">
+                        <img src="images/zimaLime.png" alt="image" class="slider-img">
+                        <h2 class="slider-product">Zima Lime</h2>
+                    </article>
+            
+                    <article class="slider-article swiper-slide">
+                        <img src="images/zimaOrange.png" alt="image" class="slider-img">
+                        <h2 class="slider-product">Zima Orange</h2>
+                    </article>
+            
+                    <article class="slider-article swiper-slide">
+                        <img src="images/zimaGrape.png" alt="image" class="slider-img">
+                        <h2 class="slider-product">Zima Grape</h2>
+                    </article>
+                </div>
+            
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </section>
+            
+            <section class="full-width-grid-con grid-con light-fresh-image">
+                <h2 class="hidden">Every Generation</h2>
+                <p class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 text-generation">Every Generation</p>
+                <p class="col-start-2 col-end-4 m-col-start-3 m-col-end-11  text-light l-col-start-2 l-col-end-12">light and fresh</p>
+                <div class="buy-now-button-light col-start-2 col-end-4 m-col-start-5 m-col-end-9 l-col-start-6 l-col-end-8">
+                    <button class="buy-now-btn">Buy Now!</button>
+                </div>
+            </section>
+
+            <section class="full-width-grid-con scrolling-text">
+                <h2 class="hidden">Zomething Different</h2>
+                <div class="col-span-full scrolling-container">
+                    <div>
+                      <div class="scrolling-text-content">
+                        <p>Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different Zomething Different </p>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+
+            <section class="grid-con photos-promotion">
+                <h2 class="hidden">Promotion Photos</h2>
+               <div class="col-span-full m-col-span-full l-col-start-3 l-col-end-11 promotion"><img src="images/promotion-photo.jpg" alt="promotion"></div>
+               <div class="col-start-2 col-end-4 m-col-start-1 m-col-end-7 l-col-start-2 l-col-end-7">Stay Fresh, Stay Cool</div>
+            </section>
+
+            <section class="grid-con wave">
+                <h2 class="hidden">Wave</h2>
+                <div class="our-step-text col-start-1 col-end-4 m-col-start-1 m-col-end-7 l-col-start-2 l-col-end-9">Every Step Of US</div>
+                <div class="cocktail-icon m-col-start-2 m-col-end-4 l-col-start-2 l-col-end-4"><img src="images/cocktail-icon.svg" alt="image"></div>
+                <div class="our-step-text-main col-span-full m-col-start-4 m-col-end-13 l-col-start-4 l-col-end-13">
+                    As the ultimate companion for those with a cool spirit, Zima elevates moments and refreshes vibes. Its crisp sensation takes you on a journey of pure, unbridled refreshment.
+                </div>
+                <div class="snowflake-icon m-col-start-2 m-col-end-4 l-col-start-2 l-col-end-4"><img src="images/snowflake-icon.svg" alt="image"></div>
+                <div class="our-step-text-main col-span-full m-col-start-4 m-col-end-13 l-col-start-4 l-col-end-13">
+                    Embrace the chill, live the thrill - that is the essence of Zima, where cool meets extraordinary!
+                </div>
+                <div class="learn-more-button col-start-2 col-end-4 m-col-start-2 m-col-end-6 l-col-start-2 l-col-end-6">
+                <button class="our-story-btn">Learn Us More</button>
+                </div>
+            </section>
+
+            
+            <section class="grid-con slider-shop swiper">
+                <h2 class="hidden">Slider Shop Merch</h2>
+                <div class="col-span-full swiper-wrapper">
+                    <article class="slider-article swiper-slide">
+                        <img src="images/t-shirt-merch.png" alt="image" class="slider-img">
+                        <h2 class="slider-product">T-shirt</h2>
+                    </article>
+
+                    <article class="slider-article swiper-slide">
+                        <img src="images/cap-merch.png" alt="image" class="slider-img">
+                        <h2 class="slider-product">Cap</h2>
+                    </article>
+
+                    <article class="slider-article swiper-slide">
+                        <img src="images/bag-merch.png" alt="image" class="slider-img">
+                        <h2 class="slider-product">Bag</h2>
+                    </article>
+
+                    <article class="slider-article swiper-slide">
+                        <img src="images/glass-merch.png" alt="image" class="slider-img">
+                        <h2 class="slider-product">Glass</h2>
+                    </article>
+
+                    <article class="slider-article swiper-slide">
+                        <img src="images/coasters-merch.png" alt="image" class="slider-img">
+                        <h2 class="slider-product">Coasters</h2>
+                    </article>
+
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <div class="see-more-button col-start-2 col-end-4 m-col-start-8 m-col-end-13 l-col-start-8 l-col-end-13">
+                <button class="merch-btn">See More!</button>
+                </div>
+            </section>
+
+            <section class="grid-con contact-us">
+                <h2 class="hidden">Promotion Photos</h2>
+                <div class="comments col-span-full m-col-start-1 m-col-end-7 l-col-start-2 l-col-end-7"><img src="images/comments.png" alt="image"></div>
+                <div class="picture-comment col-span-full m-col-start-7 m-col-end-13 l-col-start-7 l-col-end-12"><img src="images/picture.png" alt="image"></div>
+                <div class="contact-text-main col-span-full m-col-start-1 m-col-end-8 l-col-start-2 l-col-end-8">Contact Us</div>
+                <div class="contact-text col-span-full m-col-start-1 m-col-end-8 l-col-start-2 l-col-end-8">Feel free to message us!</div>
+                <div id="contact-form" class="col-span-full m-col-span-full l-col-start-2 l-col-end-12">
+                <form action="email.php" method="POST" enctype="text/plain">
+                    <input name="fullName" type="text" placeholder="First & Last Name" class="contact-input">
+                    <input name="contactInfo" type="text" required placeholder="Email" class="contact-input">
+                    <textarea name="msg" placeholder="Type your message here..." class="contact-input-message"></textarea>
+                    <div class="contact-send-button col-start-1 col-end-3"><button>Send Message</button></div>
+                    </form>
+                </div>
+                <div class="join-us-text col-span-full">Let's Join us here!</div>
+
+                <div class="social-medias col-span-full m-col-start-8 m-col-end-13 l-col-start-9 l-col-end-12">
+                    <img src="images/facebook-icon.png" alt="facebook">
+                    <img src="images/instagram-icon.png" alt="instagram">
+                    <img src="images/twitter-icon.png" alt="twitter">
+                    <img src="images/pinterest-icon.png" alt="pinterest">
+                </div>
+
+            </section>
+        </main>
+
+        <footer class="grid-con">
+            <h2 class="hidden">Footer</h2>
+            <div id="logo-footer" class="col-start-1 col-end-3 m-col-start-2 m-col-end-4"><a href="home.html"><img src="images/logo-footer.svg" alt="image"></a></div>
+            <div class="text-footer col-start-1 col-end-3 m-col-start-5 m-col-end-9 l-col-start-5 l-col-end-9">
+                <p>
+                Privacy and Policy</p>
+                <p>Terms of Use</p>
+                <p>Accessability
+                </p>
+            </div>
+
+            <div class="text-footer col-start-1 col-end-3 m-col-start-9 m-col-end-13 l-col-start-9 l-col-end-13">
+                <p>
+                Some Question</p>
+                <p>contact@zima.com</p>
+                <p>More detail here:</p>
+                <p>(+1) 123-345-4567
+              </p>
+            </div>
+              <div class="copyright-text col-span-full m-col-span-full"><p>©2024</p></div>
+
+            
+        </footer> 
+       
+        <script src="js/main.js"></script>  
+        <script src="js/swiper-bundle.min.js"></script> 
+        <script src="js/buttons.js"></script> 
+
+
+    </body>
+</html>

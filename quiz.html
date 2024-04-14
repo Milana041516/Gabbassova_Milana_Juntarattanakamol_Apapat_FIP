@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet">
+    <link href="css/quiz.css" rel="stylesheet">
+    <title>Music Mixer</title>
+</head>
+    <body class="container">
+        <h1 class="hidden">Music Mixer</h1>
+        <header>
+            <div id="logo-quiz"><a href="home.html"><img src="images/logo.svg" alt="image"></a></div>
+            <div class="z-50">
+                <button class="chatbot-toggler">
+                    <span class="material-symbols-outlined">comment</span>
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+                <div class="chatbot">
+                    <div class="chatbot-zima">
+                        <h2>Chatbot</h2>
+                        <span class="close-btn material-symbols-outlined">close</span>
+                    </div>
+                    <ul class="chatbox">
+                        <li class="chat incoming">
+                            <span class="material-symbols-outlined">smart_toy</span>
+                            <p>Hi there! <br> How can I help you today?</p>
+                        </li>
+                    </ul>
+            
+                    <div class="chat-input">
+                        <textarea placeholder="Enter a message.." required></textarea>
+                        <span id="send-btn" class="material-symbols-outlined">send</span>
+                    </div>
+                </div>
+                </div>
+        </header>
+        <main>
+            <section id="drop-zone" class="grid-con">
+                <h2 class="hidden">Drop-zone</h2>
+                <div class="drop-zone mobile-drop1 col-start-1 col-end-2 m-col-start-2 m-col-end-4 l-col-start-2 l-col-end-4"></div>
+                <div class="m-col-start-4 m-col-end-5 l-col-start-4 l-col-end-5"><i class="fas fa-plus"></i></div>
+                <div class="drop-zone mobile-drop2 col-start-2 col-end-3 m-col-start-5 m-col-end-7 l-col-start-5 l-col-end-7"></div>
+                <div class="m-col-start-7 m-col-end-8 l-col-start-7 l-col-end-8"><i class="fas fa-plus"></i></div>
+                <div class="drop-zone mobile-drop3 col-start-3 col-end-4 m-col-start-8 m-col-end-10 l-col-start-8 l-col-end-10"></div>
+                <div class="m-col-start-10 m-col-end-11 l-col-start-10 l-col-end-11"><i class="fas fa-equals"></i></div>
+                <div class="bottle-background col-start-4 col-end-5 m-col-start-11 m-col-end-12 l-col-start-11 l-col-end-12"></div>
+            </section>
+            
+            <section id="m-tools-drag" class="grid-con">
+                <h2 class="hidden">Musical Tools</h2>
+                <div class="m-tools col-start-1 col-end-2 m-col-start-3 m-col-end-5 l-col-start-3 l-col-end-5"><img src="images/drums.png" alt="drums" id="drums" draggable="true" data-tool="0"></div>
+                <div class="m-tools col-start-2 col-end-3 m-col-start-5 m-col-end-7 l-col-start-5 l-col-end-7"><img src="images/piano.png" alt="piano" id="piano"  draggable="true" data-tool="1"></div>
+                <div class="m-tools col-start-3 col-end-4 m-col-start-7 m-col-end-9 l-col-start-7 l-col-end-9"><img src="images/vocal.png" alt="vocal" id="vocal"  draggable="true" data-tool="2"></div>
+                <div class="m-tools col-start-4 col-end-5 m-col-start-9 m-col-end-11 l-col-start-9 l-col-end-11"><img src="images/bass.png" alt="bass" id="bass"  draggable="true" data-tool="3"></div>
+            </section>
+
+            <section class="grid-con audio-controls">
+                <h2 class="hidden">Buttons</h2>
+                <button id="resetButton" class="reset-btn col-start-1 col-end-2 m-col-start-1 m-col-end-5 l-col-start-1 l-col-end-5">
+                    <span>Reset</span>
+                </button>
+                <button id="replayButton" class="btn col-start-2 col-end-3 m-col-start-5 m-col-end-6 l-col-start-5 l-col-end-6">
+                    <i class="fas fa-redo"></i>
+                </button>
+                <button id="playButton" class="btn col-start-3 col-end-4 m-col-start-6 m-col-end-7 l-col-start-6 l-col-end-7">
+                    <i class="fas fa-play"></i>
+                </button>
+                <button id="pauseButton" class="btn col-start-4 col-end-5 m-col-start-7 m-col-end-8 l-col-start-7 l-col-end-8">
+                    <i class="fas fa-pause"></i>
+                </button>
+                <input id="volumeControl" class="slider col-start-1 col-end-3 m-col-start-8 m-col-end-11 l-col-start-8 l-col-end-11" type="range" min="0" max="100" value="0">
+                <div class="col-start-3 col-end-5 m-col-start-11 m-col-end-13 l-col-start-11 l-col-end-13"><i id="glass" class="fas fa-wine-glass"></i></div>
+            </section>
+        </main>
+          
+       
+        <script src="js/main.js"></script> 
+    </body>
+</html>

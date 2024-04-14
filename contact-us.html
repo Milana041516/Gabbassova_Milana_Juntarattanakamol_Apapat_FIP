@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/nup6hpu.css">
+    <script src="js/script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
+
+    <title>Zima Website</title>
+</head>
+    <body>
+        <div id="sticky-nav-con">
+        <header class="grid-con">
+            <h1 class="hidden">Header</h1>
+            <div id="logo" class="col-start-1 col-end-2 m-col-start-1 col-end-3"><object data="images/logo.svg" type="image/svg+xml"></object></div>
+            <div id="menu" class="col-start-3 col-end-4 m-col-start-9 m-col-end-11"><img class="menu-icon" src="images/menu_icon.svg" alt="menu"></div>
+            <div id="cart" class="col-start-4 col-end-5 m-col-start-12 m-col-end-13 l-col-start-12 l-col-end-13"><object class="cart-icon" data="images/bag-icon.svg" type="image/svg+xml"></object></div>
+            <nav id="main-nav">
+                <div class="nav-menu col-span-full l-col-start-4 l-col-end-12" id="nav-menu-id">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="buy-now.html" class="nav-link">Buy Now</a></li>
+                    <li class="nav-item"><a href="our-story.html"  class="nav-link">Our Story</a></li>
+                    <li class="nav-item"><a href="merch.html" class="nav-link">Merch</a></li>
+                    <li class="nav-item"><a href="contact-us.html" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item"><a href="quiz.html" class="nav-link">Quiz</a></li>
+                </ul>
+
+                <div class="nav-close" id="nav-close-id">
+                    <i class="fas fa-times"></i>
+                </div>
+                </div>
+            </nav>
+
+            <div class="z-50">
+                <button class="chatbot-toggler">
+                    <span class="material-symbols-outlined">comment</span>
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+                <div class="chatbot">
+                    <div class="chatbot-zima">
+                        <h2>Chatbot</h2>
+                        <span class="close-btn material-symbols-outlined">close</span>
+                    </div>
+                    <ul class="chatbox">
+                        <li class="chat incoming">
+                            <span class="material-symbols-outlined">smart_toy</span>
+                            <p>Hi there! <br> How can I help you today?</p>
+                        </li>
+                    </ul>
+            
+                    <div class="chat-input">
+                        <textarea placeholder="Enter a message.." required></textarea>
+                        <span id="send-btn" class="material-symbols-outlined">send</span>
+                    </div>
+                </div>
+                </div>
+        </header>
+    </div>
+
+    
+        <main>
+            <section class="grid-con contact-us-page">
+                <h2 class="hidden">Promotion Photos</h2>
+                <div class="contact-text-main col-span-full m-col-start-1 m-col-end-8 l-col-start-2 l-col-end-8">Contact Us</div>
+                <div class="contact-text col-span-full m-col-start-1 m-col-end-8 l-col-start-2 l-col-end-8">Feel free to message us!</div>
+                <div id="contact-form" class="col-span-full m-col-span-full l-col-start-2 l-col-end-12">
+                <form action="email.php" method="POST" enctype="text/plain">
+                    <input name="fullName" type="text" placeholder="First & Last Name" class="contact-input">
+                    <input name="contactInfo" type="text" required placeholder="Email" class="contact-input">
+                    <textarea name="msg" placeholder="Type your message here..." class="contact-input-message"></textarea>
+                    <div class="contact-send-button col-start-1 col-end-3"><button>Send Message</button></div>
+                </form>
+                </div>
+                <div class="join-us-text col-span-full">Let's Join us here!</div>
+
+                <div class="social-medias col-span-full m-col-start-8 m-col-end-13 l-col-start-9 l-col-end-12">
+                    <img src="images/facebook-icon.png" alt="facebook">
+                    <img src="images/instagram-icon.png" alt="instagram">
+                    <img src="images/twitter-icon.png" alt="twitter">
+                    <img src="images/pinterest-icon.png" alt="pinterest">
+                </div>
+
+            </section>
+        </main>
+
+        <footer class="grid-con">
+            <h2 class="hidden">Footer</h2>
+            <div id="logo-footer" class="col-start-1 col-end-3 m-col-start-2 m-col-end-4"><a href="home.html"><img src="images/logo-footer.svg" alt="image"></a></div>
+            <div class="text-footer col-start-1 col-end-3 m-col-start-5 m-col-end-9 l-col-start-5 l-col-end-9">
+                <p>
+                Privacy and Policy</p>
+                <p>Terms of Use</p>
+                <p>Accessability
+                </p>
+            </div>
+
+            <div class="text-footer col-start-1 col-end-3 m-col-start-9 m-col-end-13 l-col-start-9 l-col-end-13">
+                <p>
+                Some Question</p>
+                <p>contact@zima.com</p>
+                <p>More detail here:</p>
+                <p>(+1) 123-345-4567
+              </p>
+            </div>
+              <div class="copyright-text col-span-full m-col-span-full"><p>©2024</p></div>
+
+            
+        </footer> 
+       
+        <script src="js/main.js"></script>  
+        <script src="js/swiper-bundle.min.js"></script> 
+
+    </body>
+</html>
